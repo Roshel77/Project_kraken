@@ -1,0 +1,10 @@
+from sys import argv
+
+hour = argv[1]
+rate_per = argv[2]
+bonus = argv[3]
+
+print('Количество отработанных часов: ', hour)
+print('Ставка в час: ', rate_per)
+print('Размер премии: ', bonus)
+print(int(argv[1]) * int(argv[2]) + int(argv[3]))
